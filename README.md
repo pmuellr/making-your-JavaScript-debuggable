@@ -7,6 +7,11 @@ The samples are in the subdirectories; each subdirectory contains a "broken"
 version of a program, and a "fixed" version of a program.  The context here is
 that "broken" means "difficult to debug" and "fixed" means "easier to debug".
 
+These samples are all executable, using hash-bang syntax, and assume that you're
+using [N|Solid](https://nodesource.com/products/nsolid) to run the program,
+so that you can generate CPU profiles and heap snapshots from the
+N|Solid Console.
+
 
 anon-stack-traces
 --------------------------------------------------------------------------------
